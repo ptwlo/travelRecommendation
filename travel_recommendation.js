@@ -3,7 +3,7 @@ const form = document.getElementById('form');
 
 let db = {};
 
-const url = "http://localhost:8014/travel_recommendation_api.json";
+const url = "./travel_recommendation_api.json";
 const options = {
   mode: 'cors',
   headers: { 'Content-Type': 'application/json' }
